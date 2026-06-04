@@ -1,4 +1,7 @@
-
+*{
+  margin:0px;
+  padding:0px;
+}
 .header {
   background: #0097a7;
   color: white;
