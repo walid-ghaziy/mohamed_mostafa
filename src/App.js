@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 import Cours from "./pages/Cours";
 function App() {
   return (
- <>
+ < >
    <BrowserRouter>
   <Header/>
      <Routes>

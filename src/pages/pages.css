@@ -5,6 +5,8 @@ body {
 
 .container {
   padding: 50px;
+  overflow: hidden;
+
 }
 
 .cards-container {
@@ -77,6 +79,8 @@ overflow: hidden;
 .home {
   background: white;
   padding: 40px;
+  overflow: hidden;
+
 }
 
 .hero {
@@ -94,6 +98,7 @@ overflow: hidden;
   object-fit: cover;
   border: 6px solid #19a9b8;
 }
+
 
 .hero-content {
   flex: 1;
