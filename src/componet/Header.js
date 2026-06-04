@@ -7,7 +7,7 @@ FaDiscourse
 } from "react-icons/fa";
 function Header() {
   return (
-    <header className="header">
+    <header className="header" style={{overflow:"hidden"}}>
       <h2>My Medical Site</h2>
       <div className="minu">
         <center>   <FaUserMinus/></center>

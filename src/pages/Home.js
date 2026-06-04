@@ -12,7 +12,7 @@ import {
 import profile from "./image/photo_2026-06-03_15-15-07.jpg"
 function Home() {
   return (
-    <div className="home">
+    <div className="home" style={{overflow:"hidden"}}>
 
       {/* Hero Section */}
       <section className="hero">
