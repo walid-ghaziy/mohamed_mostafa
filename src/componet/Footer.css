@@ -2,6 +2,7 @@
   background: #f7f7f7;
   padding: 60px 20px;
   margin-top: 50px;
+
 }
 
 .logo {
@@ -18,7 +19,7 @@
 }
 
 .newsletter input {
-  width: 100%;
+  width: 90%;
   max-width: 500px;
   padding: 15px;
   margin-top: 10px;
