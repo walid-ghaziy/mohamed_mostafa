@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter, Route,Routes} from "react-router-dom";
+import Header from "./componet/Header";
+import Footer from "./componet/Footer";
+import Home from "./pages/Home"
+import Chemistry from "./pages/chemistry";
+import Pharmacy from "./pages/pharmacy";
+import Contact from "./pages/Contact";
+import Cours from "./pages/Cours";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ <>
+   <BrowserRouter>
+  <Header/>
+     <Routes>
+    <Route path="/" element={<Home/>}/>
+    <Route path="Chemistry" element={<Chemistry/>}/>
+    <Route path="Pharmacy" element={<Pharmacy/>}/>
+    <Route path="Contact" element={<Contact/>}/>
+    <Route path="cours/:cod" element={<Cours/>}/>
+  </Routes>
+   </BrowserRouter>
+  <Footer/>
+     {/* <BrowserRouter>
+          <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/chemistry" element={<Chemistry />} />
+        <Route path="/pharmacy" element={<Pharmacy />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+     </BrowserRouter> */}
+ 
+
+    
+    
+ </>
+
   );
 }
 

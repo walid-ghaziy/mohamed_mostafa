@@ -1,0 +1,58 @@
+.header {
+  background: #0097a7;
+  color: white;
+  padding: 20px 50px;
+width: 100%;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header nav {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: 100%;
+  position: absolute;
+  overflow: scroll;
+  left: 0px;
+padding: 20px;
+}
+.header nav ::-webkit-scrollbar{
+  display: none;
+}
+h2{
+    position: relative;
+    left: -5%;
+}
+
+.header a {
+  color: rgb(3, 41, 52);
+  background-color: aliceblue;
+  left: 0%;
+  max-width: 20%;
+  min-width: 15%;
+  margin-left: 0px;
+  text-decoration: none;
+  border: none;
+  padding: 10px;
+  top: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.minu{
+position: absolute;
+width: 40px;
+height: 40px;
+background-color: rgb(255, 255, 255);
+align-items: center;
+align-content: center;
+align-self: center;
+left: 90%;
+border-radius: 50%;
+top: 2%;
+color: #0097a7;
+font-size: 30px;
+
+}
